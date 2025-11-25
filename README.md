@@ -1,4 +1,4 @@
-# Spotify Music Analytics Data Warehouse project
+# Spotify Data Warehouse project
 This project implements a modern Spotify Music Analytics Data Warehouse.
 It ingests, cleans, transforms, and models Spotify track metadata spanning 2009–2023 and 2025, enabling analytics on artist popularity, track trends, genres, albums, and more.
 
