@@ -7,10 +7,10 @@ It ingests, cleans, transforms, and models Spotify track metadata spanning 2009â
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 ![Data Architecture](docs/warehouse_architecture.png)
 
-# Status
-1. Bronze(Done)
-2. Silver(X)
-3. Gold(X)
+## Project Status
+1. Bronze Layer(Done)
+2. Silver Layer(X)
+3. Gold Layer(X)
 
 ## Reference:
 Data With Bara: https://www.youtube.com/@DataWithBaraa
