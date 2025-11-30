@@ -18,6 +18,3 @@ It shows how data flows from one layer to another.
 2. Silver Layer(Done)
 3. Gold Layer(Done)
 4. Data Visualization(Power BI In Progress)
-
-## Reference:
-Data With Bara: https://www.youtube.com/@DataWithBaraa
