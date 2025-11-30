@@ -122,7 +122,8 @@ BEGIN
       AND b.track_popularity IS NOT NULL
       AND b.track_duration_min IS NOT NULL
       AND b.explicit IS NOT NULL
-      AND b.album_id IS NOT NULL AND TRIM(b.album_id) <> '';
+      AND b.album_id IS NOT NULL AND TRIM(b.album_id) <> ''
+	ON CONFLICT(track_id) DO NOTHING;
 
     RAISE NOTICE 'Inserting in ma_artist_genre table';
     INSERT INTO silver.ma_artist_genre

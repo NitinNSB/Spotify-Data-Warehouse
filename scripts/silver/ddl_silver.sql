@@ -43,6 +43,7 @@ CREATE TABLE silver.ma_track(
     explicit BOOLEAN NOT NULL,
     artist_id INT NOT NULL,
     album_id  VARCHAR(30) NOT NULL,
+	CONSTRAINT ma_track_pkey PRIMARY KEY(track_id),
 	CONSTRAINT fkey_ma_artist FOREIGN KEY(artist_id)
 	REFERENCES silver.ma_artist(artist_id),
 	CONSTRAINT fkey_album FOREIGN KEY(album_id)
