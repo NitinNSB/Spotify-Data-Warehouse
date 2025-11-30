@@ -9,7 +9,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ## Project Status
 1. Bronze Layer(Done)
-2. Silver Layer(X)
+2. Silver Layer(Done)
 3. Gold Layer(X)
 
 ## Reference:
